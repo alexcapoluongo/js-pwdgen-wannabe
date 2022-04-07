@@ -8,5 +8,5 @@ const userSurname = prompt('scrivi il tuo cognome');
 const userColor = prompt('scrivi il tuo colore preferito');
 
 // genera password nomecognomecolorepreferito21
-const message = `La tua password è ${userName}${userSurname}${userColor}`;
-document.getElementById("my-text").innerHTML = message + 21;
+const message = `La tua password è ${userName}${userSurname}${userColor}21`;
+document.getElementById("my-text").innerHTML = message;
